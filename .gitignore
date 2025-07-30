@@ -1,1 +1,17 @@
+# 忽略 D2L 下载的数据集和模型文件
 d2l-zh/pytorch/data/
+*.zip
+*.tar
+*.gz
+*.pt
+*.pth
+*.npz
+*.npy
+
+# 忽略 Jupyter 自动生成的临时文件
+.ipynb_checkpoints/
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
